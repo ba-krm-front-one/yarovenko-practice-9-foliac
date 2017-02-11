@@ -1,0 +1,157 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#form{
+    height: 566px;
+    width: 700px;
+    border: none;
+}
+h3{
+position: relative;
+    color: #48bf72;
+    font-family: "Big John",sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    text-transform: uppercase;
+   /* margin-top: 1412px;
+    z-index: 10; */
+    text-align: center;
+    margin-top: 51px;
+    -webkit-margin-after: 0;
+   }
+#fa-user{
+    position: relative;
+    margin-top: 54px;
+    margin-bottom: 30px;
+    padding: 0;
+    float: left;
+    width: 335px;
+    height: 50px;
+}
+#fa-mail{
+    position: relative;
+    float: right;
+    margin-top: 54px;
+    margin-bottom: 30px;
+    width:333px;
+    height: 50px;
+    padding: 0;
+
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 3px;
+    position:relative;
+    z-index: 10;
+
+}
+.fa-arrow{
+
+    margin-bottom: 17px;
+    margin-left: -12px;
+    position:relative;
+    z-index: 9;
+}
+
+#fa-text{
+    margin-top: 134px;
+    position: absolute;
+    height: 228px;
+    width: 700px;
+}
+.fa-arrow-text{
+    margin-bottom: 195px;
+    margin-left: -12px;
+    position:relative;
+    z-index: 9;
+
+}
+.fa-img-text{
+    height: 228px;
+    width: 50px;
+    position:relative;
+    z-index: 10;
+
+}
+
+.fa-holder1{
+    height: 100%;
+    width: 287px;
+    position: absolute;
+    margin-left: -10px;
+    z-index: 0;
+    padding-left: 23px;
+    border-radius: 3px;
+    border: 2px solid #3c4955;
+    background-color: #f1f1f1;
+
+}
+
+.fa-holder2{
+    height: 100%;
+    width: 651px;
+    position: absolute;
+    margin-left: -9px;
+    z-index: 0;
+    padding-left: 23px;
+    border-radius: 3px;
+    border: 2px solid #3c4955;
+    background-color: #f1f1f1;
+    padding-top: 15px;
+    margin-bottom: 30px;
+}
+
+.fa-form-button{
+    margin-top: 392px;
+    position: relative;
+    height: 50px;
+    width: 700px;
+    border-radius: 3px;
+    background-color: #48bf72;
+    color: #ffffff;
+    font-family: Lato,sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 12px;
+    cursor: pointer;
+}
+.fa-form-button:active{
+    border: 2px solid  #48bf72;
+    border-radius: 3px;
+    background-color: #ffffff;
+    color: #48bf72;
+    -webkit-transition: background-color 1s ease, color 0.1s linear;
+    -moz-transition: background-color 1s ease, color 0.1s linear;
+    transition: background-color 1s ease, color 0.1s linear;
+
+}
+@font-face {
+
+    font-family: 'Big John';
+
+    src: url('font/big_john-webfont.woff2') format('woff2'),
+
+    url('font/big_john-webfont.woff') format('woff');
+
+    font-weight: normal;
+
+    font-style: normal;
+}
+@font-face {
+
+    font-family: 'Slim Joe';
+
+    src: url('font/slim_joe-webfont.woff2') format('woff2'),
+
+    url('font/slim_joe-webfont.woff') format('woff');
+
+    font-weight: normal;
+
+    font-style: normal;
+}
